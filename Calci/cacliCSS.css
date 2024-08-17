@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(145, 197, 243);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    height: 40rem;
+    width: 25rem;
+    background-color: rgb(30, 29, 29);
+    position: relative;
+    border-radius: 15px;
+}
+
+.screen
+{   
+    height: 100px;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: 19px;
+    border-radius: 15px;
+    border: none;
+}
+.screen:hover{
+    cursor: text;
+}
+
+.buttons
+{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    gap: 15px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.button
+{  
+    height: 70px;
+    width: 63px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(42, 42, 41);
+}
+
+.button:hover
+{
+    cursor: pointer;
+    background-color: rgb(91, 91, 90);
+    transition: 250ms;
+    transform: scale(1.2);
+}
+button{
+    border: none;
+}
+input{
+    border: none;
+    background-color: rgb(44, 43, 43);
+    border: 1px solid white;
+    color: white;
+    font-size: 40px;
+    text-align: end;
+}
+p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.equals, .C, .AC, .mod, .div, .multi, .add, .sub{
+    color: rgb(254, 136, 2);
+}
+
+h1{
+    text-align: center;
+    height: 0;
+    margin: 0;
+}
